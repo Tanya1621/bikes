@@ -1,0 +1,33 @@
+@import '../vendor/fonts.css';
+@import '../vendor/normalize.css';
+@import "../scss/variables";
+@import "../scss/mixins";
+
+@import "../blocks/page/page";
+
+@import "../blocks/header/header";
+@import "../blocks/header/__menu/header__menu";
+@import "../blocks/header/__menu/header__menu";
+@import "../blocks/header/__menu-list/header__menu-list.scss";
+@import "../blocks/header/__menu-link/header__menu-link";
+@import "../blocks/header/__menu-item/header__menu-item";
+
+@import "../blocks/intro/intro";
+@import "../blocks/intro/__heading/intro__heading";
+@import "../blocks/intro/__paragraph/intro__paragraph";
+@import "../blocks/intro/__button/intro__button";
+@import "../blocks/intro/__pic/intro__pic";
+@import "../blocks/intro/__bike-name/intro__bike-name";
+@import "../blocks/intro/__pics/intro__pics";
+@import "../blocks/intro/__heading-area/intro__heading-area";
+@import "../blocks/intro/__sticky-block/intro__sticky-block";
+@import "../blocks/quote/quote";
+
+
+@import "../blocks/road/road";
+
+@import "../blocks/bicycles/bicycles";
+
+@import "../blocks/training/training";
+
+@import "../blocks/footer/footer";

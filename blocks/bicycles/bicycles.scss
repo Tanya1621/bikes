@@ -1,0 +1,39 @@
+.bicycles {
+  margin: 0 $margin-sec;
+  padding: 60px 0;
+}
+
+.bicycles__heading {
+  @include font($f-w-h, $f-s-h, $f-l-h);
+  margin: 0 0 120px;
+  color: $font-color_main;
+}
+
+.bicycles__gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+.bicycles__wrapper {
+  width: 380px;
+  height: 380px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+
+
+.bicycles__pic {
+  padding: 20px;
+  width: 340px;
+  height: 340px;
+  //border-radius: 20px;
+}
+
+.bicycles__name {
+  margin: 0;
+  margin-top: 22px;
+  @include font($semi, $f-s-p, 22px)
+}

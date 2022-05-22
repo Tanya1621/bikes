@@ -1,0 +1,60 @@
+.road {
+margin-left: $margin-sec;
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+.road__description {
+  width: 460px;
+}
+
+.road__heading {
+  @include font($f-w-h, $f-s-h, $f-l-h);
+  margin: 0 0 50px;
+  color: $font-color_main;
+}
+
+.road__paragraph {
+  @include font($f-w-p, $f-s-p, $f-l-p);
+  margin: 0 0 80px;
+  color: $font-color_add;
+  opacity: $op-def;
+}
+
+.road__gallery {
+  display: flex;
+  flex-direction: row;
+  height: 400px;
+}
+
+.road__first-block {
+  margin-right: 40px;
+}
+
+.road__img {
+  width: 650px;
+  height: 400px;
+}
+
+.road__second-block {
+  width: 650px;
+  height: 400px;
+}
+
+.road__button {
+  padding: 0;
+  margin-top: 50px;
+  background-color: rgba(235, 235, 235, 1);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  background-image: url("../../images/Vector.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.road__button_forward {
+  background-image: url("../../images/forward.svg");
+  margin-left: 20px;
+}

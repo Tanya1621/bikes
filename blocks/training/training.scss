@@ -1,0 +1,40 @@
+.training {
+  padding: 150px 0 $margin-sec;
+  margin: 0 $margin-sec;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+.training__heading-area {
+  width: 460px;
+}
+
+.training__heading {
+  @include font($f-w-h, $f-s-h, $f-l-h);
+  margin: 0 0 50px;
+  color: $font-color_main;
+}
+
+.training__paragraph {
+  @include font($f-w-p, $f-s-p, $f-l-p);
+  margin: 0 0 182px;
+  color: $font-color_add;
+  opacity: $op-def;
+}
+
+.training__link {
+  text-decoration: none;
+  color: $font-color_main;
+  @include font($semi, $f-s-p, $f-l-p);
+  margin-right: 30px;
+}
+
+.training__link:last-of-type {
+  margin-right: 0;
+}
+
+.training__pic {
+  width: 580px;
+  height: 460px;
+}

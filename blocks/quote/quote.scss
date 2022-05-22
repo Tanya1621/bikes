@@ -1,0 +1,35 @@
+.quote {
+  margin: 120px 120px 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 80px;
+}
+
+.quote__pic {
+  width: 650px;
+  height: 460px;
+}
+
+.quote__area {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin: 0;
+}
+
+.quote__text {
+  @include font($semi, 34px, 44px);
+  margin: 0;
+}
+
+.quote__author-name {
+  @include font(500, 20px, 32px);
+  margin: 0 0 6px;
+}
+
+.quote__author-occupation {
+  @include font($f-w-p, 16px, $f-l-p);
+  margin: 0;
+  color: $font-color_add;
+  opacity: $op-def;
+}

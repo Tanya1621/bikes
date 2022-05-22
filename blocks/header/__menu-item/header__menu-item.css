@@ -1,0 +1,9 @@
+.header__menu-item {
+  font-size: 0;
+}
+
+.header__menu-item:last-of-type {
+  padding-right: 120px;
+}
+
+/*# sourceMappingURL=header__menu-item.css.map */

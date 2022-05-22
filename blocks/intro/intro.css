@@ -1,0 +1,7 @@
+.intro {
+  margin-top: 75px;
+  display: grid;
+  grid-template-areas: "heading pic" "heading pic" "heading pic" "bike pic";
+}
+
+/*# sourceMappingURL=intro.css.map */

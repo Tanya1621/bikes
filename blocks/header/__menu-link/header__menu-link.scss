@@ -1,0 +1,7 @@
+.header__menu-link {
+  text-decoration: none;
+  @include font(500,14px,18px);
+  color: $font-color_main;
+  padding: 28px 17px;
+}
+
