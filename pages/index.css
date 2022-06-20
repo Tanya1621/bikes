@@ -9,8 +9,8 @@
   --author-color: rgba(207, 207, 207, 1);
   --switcher: left;
   --buttons-background: rgba(235, 235, 235, 1);
-  --left-arrow: url("../../images/Vector.svg");
-  --right-arrow: url("../../images/forward.svg");
+  --left-arrow: url("../images/Vector.svg");
+  --right-arrow: url("../images/forward.svg");
 }
 
 [data-theme=dark] {
@@ -22,8 +22,8 @@
   --author-color: rgba(86, 86, 86, 1);
   --switcher: right;
   --buttons-background: rgba(67, 67, 67, 1);
-  --left-arrow: url("../../images/backd.svg");
-  --right-arrow: url("../../images/forward-d.svg");
+  --left-arrow: url("../images/backd.svg");
+  --right-arrow: url("../images/forward-d.svg");
 }
 
 .page {
@@ -152,7 +152,7 @@
 }
 
 .intro__bike-line {
-  background-image: url("../../../images/bike_line.svg");
+  background-image: url("../images/bike_line.svg");
   width: 132px;
   height: 2px;
 }
@@ -176,7 +176,7 @@
   border-radius: 20px;
   background-color: white;
   margin-bottom: 79px;
-  background-image: url("../../../images/bike-sticky.jpg");
+  background-image: url("../images/bike-sticky.jpg");
   background-position: center;
   background-size: 340px 260px;
   background-repeat: no-repeat;
@@ -480,11 +480,11 @@
 }
 
 .footer__theme_light {
-  background-image: url("../../images/light_light.svg");
+  background-image: url(./images/light_light.svg);
 }
 
 .footer__theme_dark {
-  background-image: url("../../images/light_dark.svg");
+  background-image: url(./images/light_dark.svg);
 }
 
 .footer__theme-switcher {
