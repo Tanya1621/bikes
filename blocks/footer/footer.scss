@@ -5,7 +5,7 @@
 }
 
 .footer__subscribe {
-  @include font($semi,24px,32px);
+  @include font($semi, 24px, 32px);
   margin: 0;
   width: 229px;
 }
@@ -21,7 +21,7 @@
 
 }
 
-.footer__email::-ms-input-placeholder{
+.footer__email::-ms-input-placeholder {
   @include font(500, 13px, 27.98px);
   color: var(--primary-color);
   opacity: $op_def;
@@ -37,6 +37,7 @@
   display: flex;
   justify-content: space-between;
 }
+
 .footer__author {
   color: var(--author-color);
   @include font($semi, 14px, 19.59px);
@@ -58,11 +59,11 @@
 }
 
 .footer__theme_light {
-  background-image: url(../../images/light_light.svg);
+  background-image: url(./images/light_light.svg);
 }
 
-.footer__theme_dark{
-  background-image: url(../../images/light_dark.svg);
+.footer__theme_dark {
+  background-image: url(./images/light_dark.svg);
 }
 
 .footer__theme-switcher {
