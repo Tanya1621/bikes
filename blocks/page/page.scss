@@ -15,8 +15,8 @@
   --author-color: rgba(207, 207, 207, 1);
   --switcher: left;
   --buttons-background: rgba(235, 235, 235, 1);
-  --left-arrow: url('../images/Vector.svg');
-  --right-arrow: url('../images/forward.svg');
+  --left-arrow: url('./images/Vector.svg');
+  --right-arrow: url('./images/forward.svg');
 ;
 }
 [data-theme="dark"] {
@@ -28,8 +28,8 @@
   --author-color:  rgba(86, 86, 86, 1);
   --switcher: right;
   --buttons-background: rgba(67, 67, 67, 1);
-  --left-arrow: url('../images/backd.svg');
-  --right-arrow: url('../images/forward-d.svg');
+  --left-arrow: url('./images/backd.svg');
+  --right-arrow: url('./images/forward-d.svg');
 
 
 }
