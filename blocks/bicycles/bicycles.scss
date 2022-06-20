@@ -6,8 +6,41 @@
 .bicycles__heading {
   @include font($f-w-h, $f-s-h, $f-l-h);
   margin: 0 0 120px;
-  color: $font-color_main;
 }
+
+.bicycles__heading-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.bicycles__label {
+  @include font($semi, $f-s-p, $f-l-p);
+  color: var(--additional-color);
+  opacity: $op-def;
+  transition: opacity 0.4s ease;
+  cursor: pointer;
+}
+
+.bicycles__label:hover {
+  opacity: 60%;
+}
+
+.bicycles__radio:checked + .bicycles__label{
+  color: var(--primary-color);
+  opacity: 100%;
+
+}
+
+.bicycles__radio-area {
+  display: flex;
+  gap: 40px;
+}
+
+.bicycles__radio {
+  display: none;
+}
+
 
 .bicycles__gallery {
   display: flex;

@@ -30,6 +30,6 @@
 .quote__author-occupation {
   @include font($f-w-p, 16px, $f-l-p);
   margin: 0;
-  color: $font-color_add;
+  color: var(--additional-color);
   opacity: $op-def;
 }

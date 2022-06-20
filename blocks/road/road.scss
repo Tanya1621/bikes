@@ -11,13 +11,13 @@ margin-left: $margin-sec;
 .road__heading {
   @include font($f-w-h, $f-s-h, $f-l-h);
   margin: 0 0 50px;
-  color: $font-color_main;
+  color: var(--primary-color);
 }
 
 .road__paragraph {
   @include font($f-w-p, $f-s-p, $f-l-p);
   margin: 0 0 80px;
-  color: $font-color_add;
+  color: var(--additional-color);
   opacity: $op-def;
 }
 
@@ -44,17 +44,17 @@ margin-left: $margin-sec;
 .road__button {
   padding: 0;
   margin-top: 50px;
-  background-color: rgba(235, 235, 235, 1);
+  background-color: var(--buttons-background);
   width: 50px;
   height: 50px;
   border-radius: 50%;
   border: none;
-  background-image: url("../../images/Vector.svg");
+  background-image: var(--left-arrow);
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .road__button_forward {
-  background-image: url("../../images/forward.svg");
+  background-image: var(--right-arrow);
   margin-left: 20px;
 }

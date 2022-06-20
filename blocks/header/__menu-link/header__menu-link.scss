@@ -1,7 +1,11 @@
 .header__menu-link {
   text-decoration: none;
   @include font(500,14px,18px);
-  color: $font-color_main;
+  color: var(--primary-color);
   padding: 28px 17px;
+  transition: opacity 0.4s ease;
 }
 
+.header__menu-link:hover {
+  opacity: $op-hov;
+}

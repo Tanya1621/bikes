@@ -12,9 +12,9 @@
 <header class="header">
     <nav class="header__menu">
         <ul class="header__menu-list">
-            <li class="header__menu-item"><a href="" class="header__menu-link">Покрытия и градиенты</a></li>
-            <li class="header__menu-item"><a href="" class="header__menu-link">Велосипеды</a></li>
-            <li class="header__menu-item"><a href="" class="header__menu-link">Тренировки</a></li>
+            <li class="header__menu-item"><a href="#road" class="header__menu-link">Покрытия и градиенты</a></li>
+            <li class="header__menu-item"><a href="#bicycles" class="header__menu-link">Велосипеды</a></li>
+            <li class="header__menu-item"><a href="#training" class="header__menu-link">Тренировки</a></li>
         </ul>
     </nav>
 </header>
@@ -46,7 +46,7 @@
             </div>
         </blockquote>
     </section>
-    <section class="road">
+    <section class="road" id="road">
         <div class="road__description">
             <h2 class="road__heading">Шоссе</h2>
             <p class="road__paragraph">На шоссейном велосипеде можно ездить по асфальту на разных градиентах: будь то
@@ -63,8 +63,18 @@
             <button class="road__button road__button_forward"></button>
         </div>
     </section>
-    <section class="bicycles">
-        <h2 class="bicycles__heading">Велосипеды</h2>
+    <section class="bicycles" id="bicycles">
+        <div class="bicycles__heading-area">
+            <h2 class="bicycles__heading">Велосипеды</h2>
+            <div class="bicycles__radio-area">
+                <input type="radio" name="bicycles__radio"
+                       class="bicycles__radio" id="radio-1" checked><label for="radio-1" class="bicycles__label">Шоссе</label>
+                <input type="radio" name="bicycles__radio"
+                       class="bicycles__radio" id="radio-2"><label for="radio-2" class="bicycles__label">Тревел</label>
+                <input type="radio" name="bicycles__radio"
+                       class="bicycles__radio" id="radio-3"><label for="radio-3" class="bicycles__label">ТТ</label>
+            </div>
+        </div>
         <div class="bicycles__gallery">
             <div class="bicycles__card">
                 <div class="bicycles__wrapper">
@@ -86,7 +96,7 @@
             </div>
         </div>
     </section>
-    <section class="training">
+    <section class="training" id="training">
         <div class="training__heading-area">
             <h1 class="training__heading">Тренировки</h1>
             <p class="training__paragraph">Чтобы найти маршрут для тренировки можно воспользоваться сервисом Komoot, а
@@ -114,7 +124,7 @@
         </div>
     </div>
 </footer>
-
+<script src="./script.js"></script>
 </body>
 </html>
 

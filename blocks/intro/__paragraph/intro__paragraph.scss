@@ -1,6 +1,6 @@
 .intro__paragraph {
   @include font($f-w-p, $f-s-p, $f-l-p);
-  color: $font-color_add;
+  color: var(--additional-color);
   opacity: $op_def;
   grid-area: subheading;
   margin: 50px 0;

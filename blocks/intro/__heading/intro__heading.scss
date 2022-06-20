@@ -1,7 +1,7 @@
 .intro__heading {
   margin: 0;
   @include font($f-w-h, $f-s-h, $f-l-h);
-  color: $font-color_main;
+  color: var(--primary-color);
   grid-area: heading;
   margin-top: 80px;
 }

@@ -1,4 +1,45 @@
+//:root {
+//  --background-color: rgba(244, 244, 244, 1);
+//  --primary-color: rgba(21, 21, 21, 1);
+//  --additional-color: rgba(34, 34, 34, 1);
+//  --additional-background-color: rgba(239, 239, 239, 1);
+//  --switcher-background: rgba(255, 255, 255, 1);
+//}
+
+[data-theme="light"] {
+  --background-color: rgba(244, 244, 244, 1);
+  --primary-color: rgba(21, 21, 21, 1);
+  --additional-color: rgba(34, 34, 34, 1);
+  --additional-background-color: rgba(239, 239, 239, 1);
+  --switcher-background: rgba(255, 255, 255, 1);
+  --author-color: rgba(207, 207, 207, 1);
+  --switcher: left;
+  --buttons-background: rgba(235, 235, 235, 1);
+  --left-arrow: url('../../images/Vector.svg');
+  --right-arrow: url('../../images/forward.svg');
+;
+}
+[data-theme="dark"] {
+  --background-color:  rgba(51, 51, 51, 1);
+  --primary-color: rgba(255, 255, 255, 1);
+  --additional-color: rgba(229, 229, 229, 1);
+  --additional-background-color: rgba(47, 47, 47, 1);
+  --switcher-background: rgba(84, 84, 84, 1);
+  --author-color:  rgba(86, 86, 86, 1);
+  --switcher: right;
+  --buttons-background: rgba(67, 67, 67, 1);
+  --left-arrow: url('../../images/backd.svg');
+  --right-arrow: url('../../images/forward-d.svg');
+
+
+}
+
 .page {
   font-family: $font-family;
-  background-color: rgba(244, 244, 244, 1);
+  background-color: var(--background-color);
+  color: var(--primary-color);
+}
+
+.page * {
+  transition: all 0.4s ease;
 }
