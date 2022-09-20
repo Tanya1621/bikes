@@ -2,9 +2,10 @@
 
 
 
-_Описание_: одноcтраничный сайт для любителей велопрогулок, содержащий информацию о различных велосипедах. На сайте реализована функциональность выбора темы: светлой или темной.
-В планах реализации: переключение картинок при выборе типа покрытия. Сайт написан с использованием SCSS.
+_Description_: One-page website for cyclists that contains information about various bicycles. The site has a theme selection functionality. The site was styled using SCSS.
 
-_Технологии_: HTML, SCSS, JavaScript, flex-, grid-layout, BEM
+Prospects: To add more functionality.
 
-**Cсылка на GitHub pages**: https://tanya1621.github.io/bikes/
+_Technologies_: HTML, SCSS, JavaScript, flex-, grid-layout, BEM
+
+**GitHub pages**: https://tanya1621.github.io/bikes/
